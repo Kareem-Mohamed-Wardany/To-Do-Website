@@ -1,0 +1,76 @@
+.form {
+    display: flex;
+    background-color: RGB(237,237,237);
+    height: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.text {
+    height: 20px;
+    width: 75%;
+    border:none;
+    outline: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.btn, .dele {
+    height: 30px;
+    width: 70px;
+    background-color: RGB(242,65,54);
+    border:none;
+    cursor: pointer;
+    color:white;
+    margin-right: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.tasks 
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    background-color:RGB(237, 237, 237);
+    height: fit-content;
+
+}
+.taskData
+{
+    background: white;
+    display: flex;
+    width: 92%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    border-radius: 5px;
+    
+    
+}
+.taskData p {
+    margin-left: 15px;
+}
+.up {
+    display: none;
+    position: fixed;
+    bottom:20px;
+    height: 25px;
+    width: 40px;
+    text-align: center;
+    left: 40%;
+    cursor: pointer;
+    background-color: RGB(242, 65, 54);
+    border: none;
+    color: white;
+    margin-right: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
